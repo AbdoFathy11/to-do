@@ -1,0 +1,7 @@
+{"dev": {
+    "driver": "pg",
+    "database": {"ENV": "DB"},
+    "port": {"ENV": "DB_PORT"},
+    "password": {"ENV": "DB_POSSWORD"},
+    "user": {"ENV": "DB_USER"} 
+}}

@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "NodeNext",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "outDir": "./build",
+      "sourceMap": true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node"
+      
+    },
+    "include": ["src/**/*"],
+    "exclude": ["**/*.spec.ts"]
+  }
