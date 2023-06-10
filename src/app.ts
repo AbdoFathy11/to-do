@@ -3,10 +3,12 @@ import express, {Request, Response} from 'express';
 import bodyParser from 'body-parser'
 import cors from 'cors';
 import user from './routers/users.r';
+import cookieParser from 'cookie-parser';
 
 const app: express.Application = express();
 const port: number = 3002;
-app.use(bodyParser())
+app.use(cookieParser())
+app.use(bodyParser.json())
 app.use(cors({
     origin: '*', 
     credentials: true,
